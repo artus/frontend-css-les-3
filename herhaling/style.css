@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header,
+footer {
+  background-color: rgb(76, 68, 189);
+  color: white;
+  padding: 3em;
+}
+
+header {
+  padding-bottom: 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 1.5em;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+  background-color: white;
+  color: rgb(76, 68, 189);
+}
+
+main {
+  padding: 2em;
+}
+
+main article {
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(to bottom right, orange, red);
+  margin-bottom: 3em;
+  padding: 2em;
+  gap: 3em;
+  justify-content: space-between;
+}
+
+main article section {
+  background-color: white;
+  color: rgb(58, 58, 58);
+  padding: 2em;
+  border-radius: 15px;
+  box-shadow: 5px 5px 16px 5px rgba(80, 80, 80, 0.47);
+}
