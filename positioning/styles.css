@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    min-height: 100%;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: rgb(81, 81, 168);
+    color: white;
+    padding: 1em;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12em;
+    padding-bottom: 12em;
+    background-image: url('./img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: baseline;
+    gap: 4em;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+main button {
+    position: absolute;
+    background-color: rgb(81, 81, 168);
+    color: white;
+    width: 2em;
+    height: 2em;
+    line-height: 0;
+    font-weight: bolder;
+    border: 0;
+    font-size: 2em;
+    border-radius: 50%;
+    cursor: pointer;
+    right: 1em;
+    bottom: 1em;
+}
+
+article {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 13px -6px rgba(115,115,115,1);
+    max-width: max(25%, 20em);
+    padding: 1em;
+    position: relative;
+}
+
+article section {
+    position: absolute;
+    top: 2em;
+    left: -2em;
+    background-color: rgb(81, 81, 168);
+    color: white;
+    display: flex;
+    padding: 0.5em 1em;
+    gap: 2em;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 1em;
+}
+
+article section img {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+article h2 {
+    margin-top: 5em;
+}
